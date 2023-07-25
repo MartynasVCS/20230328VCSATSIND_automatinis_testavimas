@@ -1,0 +1,1 @@
+# 20230328VCSATSIND_automatinis_testavimas
