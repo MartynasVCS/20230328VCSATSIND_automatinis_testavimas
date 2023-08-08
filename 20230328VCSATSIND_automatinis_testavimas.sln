@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skaiciuotuvas", "Skaiciuotuvas\Skaiciuotuvas.csproj", "{B5BA1AA4-54B0-4D3C-8946-88844F4889C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B5BA1AA4-54B0-4D3C-8946-88844F4889C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5BA1AA4-54B0-4D3C-8946-88844F4889C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5BA1AA4-54B0-4D3C-8946-88844F4889C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
