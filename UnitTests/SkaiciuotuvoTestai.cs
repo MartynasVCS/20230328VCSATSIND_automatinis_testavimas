@@ -21,7 +21,7 @@ namespace UnitTests
         {
             int number1 = 3;
             int number2 = 4;
-            int expectedResult = 11;
+            int expectedResult = 12;
 
             int actualResult = Skaiciuotuvas.Skaiciuotuvas.Sandauga(number1, number2);
 

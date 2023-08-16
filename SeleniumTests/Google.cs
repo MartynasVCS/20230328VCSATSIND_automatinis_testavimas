@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 
 namespace SeleniumTests
 {
-    public class Demo
+    public class Google
     {
         [Test]
         public void OpenGoogle()

@@ -9,7 +9,7 @@ namespace UnitTests
         {
             int sk1 = 2;
             int sk2 = 7;
-            int expectedResult = 9;
+            int expectedResult = -5;
 
             int actualResult = sk1 - sk2;
 
