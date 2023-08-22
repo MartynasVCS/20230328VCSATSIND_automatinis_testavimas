@@ -4,10 +4,10 @@ using OpenQA.Selenium.Chrome;
 
 namespace SeleniumTests
 {
-    public class Google
+    public class DayLt
     {
         [Test]
-        public void OpenGoogle()
+        public void CheckCurrentYear()
         {
             string expectedYear = "2023";
             string expectedDay = "8";
