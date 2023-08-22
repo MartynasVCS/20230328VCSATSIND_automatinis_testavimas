@@ -1,16 +1,17 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System;
 
 namespace SeleniumTests
 {
     public class DayLt
     {
         [Test]
-        public void CheckCurrentYear()
+        public void CheckCurrentYearAndDay()
         {
-            string expectedYear = "2023";
-            string expectedDay = "8";
+            string expectedYear = DateTime.Now.Year.ToString();
+            string expectedDay = DateTime.Now.Day.ToString();
 
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://www.day.lt/";
