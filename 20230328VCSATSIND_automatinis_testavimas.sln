@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33829.357
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{B44031CF-767C-41CE-87A0-47CBC438F44B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skaiciuotuvas", "Skaiciuotuvas\Skaiciuotuvas.csproj", "{B5BA1AA4-54B0-4D3C-8946-88844F4889C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestsWithoutPom", "SeleniumTestsWithoutPom\SeleniumTestsWithoutPom.csproj", "{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumFramework", "SeleniumFramework\SeleniumFramework.csproj", "{15D587BD-5BB5-4D87-8033-7D9693F80E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{7798E89C-BBEF-44E8-A15D-A69AC3E4B792}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E3BE09D-5F4B-442E-B455-E14AA7E1212D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D587BD-5BB5-4D87-8033-7D9693F80E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D587BD-5BB5-4D87-8033-7D9693F80E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D587BD-5BB5-4D87-8033-7D9693F80E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D587BD-5BB5-4D87-8033-7D9693F80E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7798E89C-BBEF-44E8-A15D-A69AC3E4B792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7798E89C-BBEF-44E8-A15D-A69AC3E4B792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7798E89C-BBEF-44E8-A15D-A69AC3E4B792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7798E89C-BBEF-44E8-A15D-A69AC3E4B792}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

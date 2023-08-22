@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumTests
+namespace SeleniumTestsWithoutPom
 {
     public class SeleniumEasy
     {

@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.Extensions;
 using System;
 
-namespace SeleniumTests
+namespace SeleniumTestsWithoutPom
 {
     public class DemoQA
     {

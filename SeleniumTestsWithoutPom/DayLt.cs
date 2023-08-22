@@ -3,7 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 
-namespace SeleniumTests
+namespace SeleniumTestsWithoutPom
 {
     public class DayLt
     {
